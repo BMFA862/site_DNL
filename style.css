@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .carrousel {
     display: flex;
     gap: 16px;
@@ -5,6 +8,7 @@
     padding: 16px;
     scroll-behavior: smooth;
     user-select: none;
+    margin-top: 50px;
 }
 
 .carrousel::-webkit-scrollbar {
@@ -12,18 +16,18 @@
 }
 
 .carrousel::-webkit-scrollbar-thumb {
-    background: #007BFF;
+    background: #36aa12;
     border-radius: 4px;
 }
 
 .carte {
     flex: 0 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid #36aa12;
     border-radius: 8px;
     width: 200px;
     padding: 16px;
     text-align: center;
-    background-color: #fff;
+    background-color:#ffffff;
 }
 
 .carte img {
@@ -46,11 +50,35 @@
     padding: 8px 12px;
     border: none;
     border-radius: 4px;
-    background-color: #007BFF;
+    background-color: #36aa12;
     color: white;
     cursor: pointer;
 }
 
 .carte button:hover {
-    background-color: #0056b3;
+    background-color: #36aa12;
+}
+
+.zone-verte{
+    background-color: #36aa12; /* Couleur bleue */
+    width: 100%; /* Prend toute la largeur */
+    height: 50px; /* Hauteur de 100px */
+    z-index: 3;
+    border-radius: 5px;
+    
+    h1{
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+    }
+}
+
+.bottom{
+    background-color: #666;
+    height: 35px;
+    
+    p{
+        color: white;
+        padding-top: 5px;
+    }
 }
