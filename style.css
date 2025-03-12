@@ -1,6 +1,7 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .carrousel {
     display: flex;
     gap: 16px;
@@ -18,6 +19,11 @@ body{
 .carrousel::-webkit-scrollbar-thumb {
     background: #36aa12;
     border-radius: 4px;
+    cursor: grab; /* Change cursor to grab */
+}
+
+.carrousel::-webkit-scrollbar-thumb:active {
+    cursor: grabbing; /* Change cursor to grabbing when active */
 }
 
 .carte {
@@ -27,7 +33,6 @@ body{
     width: 200px;
     padding: 16px;
     text-align: center;
-    background-color:#ffffff;
 }
 
 .carte img {
@@ -40,9 +45,8 @@ body{
     margin: 8px 0;
 }
 
-.carte p {
-    font-size: 0.9em;
-    color: #666;
+.carte button:hover {
+    border: 2px solid red; /* Add a red border on hover */
 }
 
 .carte button {
@@ -59,33 +63,37 @@ body{
     background-color: #36aa12;
 }
 
-.zone-verte{
-    background-color: #36aa12; /* Couleur bleue */
-    width: 100%; /* Prend toute la largeur */
-    height: 50px; /* Hauteur de 100px */
+.zone-verte {
+    background-color: #36aa12;
+    /* Couleur bleue */
+    width: 100%;
+    /* Prend toute la largeur */
+    height: 50px;
+    /* Hauteur de 100px */
     z-index: 3;
     border-radius: 5px;
-    
-    h1{
+
+    h1 {
         color: white;
         text-align: center;
         padding-top: 5px;
     }
 }
 
-.bottom{
+.bottom {
     background-color: #666;
     height: 35px;
-    
-    p{
+    border-radius: 5px;
+
+    p {
         color: white;
         padding-top: 5px;
     }
 }
+
 @media (max-width: 600px) {
     .zone-verte {
-        height: auto;
-        padding: 10px 0;
+        height: 100px;
     }
 
     .zone-verte h1 {
