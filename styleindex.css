@@ -67,8 +67,6 @@ body {
     background-color: #36aa12;
     /* Couleur bleue */
     width: 100%;
-    /* Prend toute la largeur */
-    height: 50px;
     /* Hauteur de 100px */
     z-index: 3;
     border-radius: 5px;
