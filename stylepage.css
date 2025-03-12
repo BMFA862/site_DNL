@@ -1,3 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.zone-verte {
+    background-color: #36aa12;
+    /* Couleur bleue */
+    width: 100%;
+    /* Prend toute la largeur */
+    height: 50px;
+    /* Hauteur de 100px */
+    z-index: 3;
+    border-radius: 5px;
+
+    h1 {
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+    }
+}
+
+.bottom {
+    background-color: #666;
+    height: 35px;
+    border-radius: 5px;
+
+    p {
+        color: white;
+        padding-top: 5px;
+    }
+}
+
 .description{
     width: 100%;
     height: 50px;
