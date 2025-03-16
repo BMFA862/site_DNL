@@ -52,10 +52,9 @@ h1 {
     background-color: #e0415c;
     border-radius: 10px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     transition: all 0.3s ease;
-    margin-left: 22vh;
     width: 70%;
     height: 60px;
     border-radius: 5px;
