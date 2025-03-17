@@ -67,9 +67,7 @@ body {
 
 .zone-verte {
     background-color: #36aa12;
-    /* Couleur bleue */
     width: 100%;
-    /* Hauteur de 100px */
     z-index: 3;
     border-radius: 5px;
 
@@ -82,15 +80,15 @@ body {
 
 .bottom {
     background-color: #666;
-    height: 35px;
+    width: 100%;
     border-radius: 5px;
-
-    p {
-        color: white;
-        padding-top: 5px;
-    }
 }
 
+.bottom p {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 @media (max-width: 600px) {
     .zone-verte {
         height: 100px;
