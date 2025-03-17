@@ -30,7 +30,7 @@ body {
 
 .carte {
     flex: 0 0 auto;
-    border: 1px solid #36aa12;
+    border: 3px solid #36aa12;
     border-radius: 8px;
     width: 200px;
     padding: 16px;
